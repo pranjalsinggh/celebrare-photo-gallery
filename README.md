@@ -59,16 +59,6 @@ React StrictMode intentionally starts, cancels, and restarts the fetch effect in
 
 `npm run lint` and `npm run build` pass. Fourteen browser checks passed against the running app: the live API and images, case-insensitive search without additional API requests, empty results, adding/removing favourites across reloads, all three grid layouts without overflow, recovery from corrupted storage, no uncaught browser errors, the pending-request spinner, HTTP and network errors, and keyboard toggling with unavailable storage. Error/loading states were checked using controlled API responses.
 
-## Submission
-
-The required five-minute recording must be made by the applicant, explaining this code in their own words. Review and understand each file before recording.
-
-1. Put this project's contents in a **public GitHub repository**. Exclude `node_modules` and `dist` (already covered by `.gitignore`). Keep `package-lock.json`.
-2. Record yourself demonstrating the app and explaining the required hooks.
-3. Upload the recording to Google Drive with reviewer access, or YouTube as unlisted.
-4. Submit the repository URL, recording URL, and an honest one-line description of the hardest part through the separately supplied Google Form.
-5. Check the original message for the receipt time: the deadline is 24 hours after receiving the assignment.
-
 ## References
 
 - [Vite setup](https://vite.dev/guide/)
