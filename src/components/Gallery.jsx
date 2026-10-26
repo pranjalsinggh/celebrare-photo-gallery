@@ -43,17 +43,12 @@ export default function Gallery() {
               <path d="m3 17 5-5 4 4 4-6 5 7" />
             </svg>
           </div>
-          <span className="text-sm font-semibold tracking-tight">Photo Gallery<span className="text-[#a74632]">.</span></span>
+          <h1 className="text-sm font-semibold tracking-tight">Photo Gallery<span className="text-[#a74632]">.</span></h1>
         </div>
       </header>
 
-      <main className="mx-auto max-w-7xl px-5 pt-12 pb-16 sm:px-8 sm:pt-16">
-        <div className="mb-10 flex flex-col justify-between gap-7 lg:flex-row lg:items-end">
-          <div>
-            <p className="mb-3 text-[11px] font-semibold tracking-[0.2em] text-[#a74632] uppercase">A collection of perspectives</p>
-            <h1 className="font-serif text-4xl leading-tight tracking-tight sm:text-5xl">Find a little inspiration.</h1>
-            <p className="mt-4 text-sm leading-6 text-stone-600">Explore the photographs. Find an author. Keep your favourites.</p>
-          </div>
+      <main className="mx-auto max-w-7xl px-5 pt-8 pb-16 sm:px-8">
+        <div className="mb-6">
           <SearchInput value={search} onChange={handleSearch} />
         </div>
 
