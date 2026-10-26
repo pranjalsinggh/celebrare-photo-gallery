@@ -85,7 +85,6 @@ export default function Gallery() {
       </main>
 
       <footer className="mx-auto flex max-w-7xl flex-wrap justify-between gap-2 border-t border-stone-200 px-5 py-6 text-xs text-stone-500 sm:px-8">
-        <p>A little perspective goes a long way.</p>
         <p>Photography from <a href="https://picsum.photos" className="underline underline-offset-4 hover:text-stone-800">Lorem Picsum</a></p>
       </footer>
     </div>
