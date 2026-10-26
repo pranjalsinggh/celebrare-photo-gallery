@@ -61,7 +61,7 @@ React StrictMode intentionally starts, cancels, and restarts the fetch effect in
 
 ## Submission
 
-The required five-minute recording must be made by the applicant, explaining this code in their own words. See [the recording guide](docs/recording-guide.md) for a timed demonstration and study notes. Review and understand each file before recording.
+The required five-minute recording must be made by the applicant, explaining this code in their own words. Review and understand each file before recording.
 
 1. Put this project's contents in a **public GitHub repository**. Exclude `node_modules` and `dist` (already covered by `.gitignore`). Keep `package-lock.json`.
 2. Record yourself demonstrating the app and explaining the required hooks.
